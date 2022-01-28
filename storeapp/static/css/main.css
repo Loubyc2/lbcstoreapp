@@ -1,0 +1,33 @@
+
+:root{
+    --purple_color:#70578b;
+    --gray_color:rgb(56, 56, 56);
+}
+
+.nav-content .nav-link{
+    border-radius: 30px;
+    padding-top: 5px ;
+    padding-bottom: 5px ;
+    border: 1px solid #0000000D;
+    background-color: rgba(0, 0, 0, 0.02);
+    color: var(--gray_color);
+     width: max-content !important;
+}
+
+.nav-content .nav-link.active{
+    background-color: #dedede;
+    color: var(--purple_color);
+}
+
+.nav-pills{
+   flex-wrap: nowrap !important;
+   overflow-x: scroll;
+   width: 100% !important;
+}
+
+/* main */
+.main-banner img{
+   max-width: 100%;
+   height: auto;
+   border: 2px solid #dedede;
+}
